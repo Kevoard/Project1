@@ -1,0 +1,36 @@
+main{
+    text-align: center;
+}
+#codes{
+    width: 98%;
+    min-height: 280px;
+    border-radius: 16px;
+    border: 1px solid rgb(190, 190, 190);
+}
+#buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+#buttons button{
+    width:47%;
+    border-radius: 12px;
+    border: 0;
+    padding: 12px;
+}
+#remove{
+    background-color: rgb(255, 32, 32);
+    color: white;
+}
+#play{
+    background-color: #07a907;
+    color: white;
+}
+#title-result{
+    padding: 10px;
+    border-bottom:2px solid rgb(163, 157, 157) ;
+    margin: 8px 0;
+    font-weight: bold;
+}
+#result{
+    max-width: 100% !important;
+}
